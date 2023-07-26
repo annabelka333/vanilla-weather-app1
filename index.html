@@ -21,16 +21,27 @@
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
+      <div class="weather-app">
+        <div class="overview">
       <h1>Madrid,Spain</h1>
       <ul>
         <li>Saturday 19:54</li>
         <li>Partly cloudy</li>
       </ul>
+      </div>
       <div class=" row">
         <div class="col-md-6">
+          <div class="d-flex weather-temperatura">
           <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-          alt="Partly cloudy" />
-          29° C|F
+          alt="Partly cloudy" 
+          class ="float-left"
+          />
+          <div class="float-left">
+             <strong>29</strong>
+             <span class ="units">
+              °C | °F</span>
+            </div> 
+        </div>
         </div>
         <div class ="col-md-6">
           <ul>
@@ -38,12 +49,13 @@
             <li> Wind: 18km/h</li>
           </ul>
         </div>
-        <small>
+      </div>
+      </div>
+      <small>
           <a href="https://stellar-dragon-5ca937.netlify.app/" target ="_blank">
             Open-source code</a> by Anna Vediashkyna
         </small>
-      </div>
-      </div>
+     </div>
     <script src="src/app.js"></script>
   </body>
 </html>
