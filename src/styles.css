@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
+  color: rgb(37 37 37);
+  font-size: 36px;
   text-align: left;
   font-weight: 100;
   margin-bottom: 0;
@@ -18,8 +18,10 @@ li {
   list-style: none;
   color: rgb(112, 117, 122);
   font-family: arial, sans-serif;
+  text-transform: capitalize;
   font-size: 16px;
   font-weight: 100;
+  line-height: 19px;
   margin: 0;
   padding: 0;
 }
@@ -38,18 +40,18 @@ li {
 .overview {
   margin-bottom: 10px;
 }
-.weather-temperature img {
+.icon {
   margin-right: 6px;
   height: 64px;
   width: 64px;
 }
-.weather-temperature strong {
+.strong {
   color: rgb(37 37 37);
   line-height: 1;
   font-size: 64px;
   font-weight: 400;
 }
-.weather-temperature.units {
+.weather-temperature .units {
   position: relative;
   font-size: 16px;
 }
