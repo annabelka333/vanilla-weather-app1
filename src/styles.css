@@ -54,7 +54,8 @@ li:first-letter {
   font-size: 64px;
   font-weight: 400;
 }
-.weather-temperature .units {
+.weather-temperature,
+.units {
   position: relative;
   font-size: 16px;
 }
