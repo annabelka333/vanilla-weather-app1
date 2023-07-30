@@ -17,8 +17,6 @@ ul {
 li {
   list-style: none;
   color: rgb(112, 117, 122);
-  font-family: arial, sans-serif;
-
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -27,6 +25,12 @@ li {
 }
 li:first-letter {
   text-transform: capitalize;
+}
+strong {
+  color: rgb(37 37 37);
+  line-height: 1;
+  font-size: 64px;
+  font-weight: 400;
 }
 
 .weather-app-wrapper {
@@ -44,18 +48,13 @@ li:first-letter {
   margin-bottom: 10px;
 }
 .icon {
-  margin-right: 6px;
+  margin-right: -5px;
   height: 64px;
   width: 64px;
 }
-.strong {
-  color: rgb(37 37 37);
-  line-height: 1;
-  font-size: 64px;
-  font-weight: 400;
-}
-.weather-temperature,
+
 .units {
   position: relative;
   font-size: 16px;
+  top: -30px;
 }
