@@ -23,14 +23,23 @@ li {
   margin: 0;
   padding: 0;
 }
+
 li:first-letter {
   text-transform: capitalize;
 }
+
 strong {
   color: rgb(37 37 37);
   line-height: 1;
   font-size: 64px;
   font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .weather-app-wrapper {
@@ -57,4 +66,8 @@ strong {
   position: relative;
   font-size: 16px;
   top: -30px;
+}
+.active {
+  color: rgb(37 37 37);
+  cursor: default;
 }
