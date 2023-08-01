@@ -71,3 +71,19 @@ a:hover {
   color: rgb(37 37 37);
   cursor: default;
 }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: left;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.weather-forecast-temperatures-min {
+  opacity: 0.6;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}

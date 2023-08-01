@@ -43,11 +43,8 @@ function displayTemperature(response) {
     `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.weather[0].icon}.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
-
-  /////https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png
-  ////${response.data.weather[0].icon}
-  ////http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png
 }
+
 function search(city) {
   let apiKey = "a34ea9a8b63af4e06cec6a6a23f5469e";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
