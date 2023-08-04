@@ -30,7 +30,7 @@ function displayForecast() {
     forecastHTML =
       forecastHTML +
       ` 
-        <div class="col-2">
+        <div class="col">
             <div class="weather-forecast-date">${day}</div>
             <img
                 src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
@@ -68,9 +68,9 @@ function displayTemperature(response) {
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
   iconElement.setAttribute(
     "src",
-    `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.weather[0].icon}.png`
+    `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png`
   );
-  iconElement.setAttribute("alt", response.data.weather[0].description);
+  iconElement.setAttribute("alt", response.data.description);
 }
 
 function search(city) {
