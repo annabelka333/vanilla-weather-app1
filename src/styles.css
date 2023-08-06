@@ -1,5 +1,10 @@
 body {
   font-family: Google Sans, arial, sans-serif;
+  background: -moz-linear-gradient(
+    top,
+    rgb(255, 255, 255) 0%,
+    rgb(229, 229, 229) 100%
+  );
 }
 
 h1 {
@@ -52,6 +57,12 @@ a:hover {
   padding: 30px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background: -webkit-linear-gradient(
+    top,
+    rgb(247, 251, 252) 0%,
+    rgb(217, 237, 242) 40%,
+    rgb(173, 217, 228) 100%
+  );
 }
 .overview {
   margin-bottom: 10px;
@@ -86,4 +97,11 @@ a:hover {
 }
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+.form-control {
+  background: -moz-linear-gradient(
+    top,
+    rgb(255, 255, 255) 0%,
+    rgb(229, 229, 229) 100%
+  );
 }
